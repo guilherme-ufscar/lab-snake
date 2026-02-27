@@ -10,12 +10,11 @@ export default defineConfig({
     assetsDir: 'assets',
   },
   server: {
-    // Exclude Capacitor native folders from file-watching
     watch: {
-      ignored: [
-        path.resolve(__dirname, 'android') + '/**',
-        path.resolve(__dirname, 'ios') + '/**',
-      ],
+      ignored: ['**/android/**', '**/ios/**'],
+    },
+    fs: {
+      deny: ['android', 'ios'],
     },
   },
 });
