@@ -1,0 +1,23 @@
+{
+  "appId": "com.labsnake.app",
+  "appName": "Lab Snake",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#030712"
+    },
+    "Keyboard": {
+      "resize": "none"
+    }
+  },
+  "android": {
+    "backgroundColor": "#030712",
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  }
+}

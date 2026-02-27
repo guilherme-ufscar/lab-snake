@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Android build artifacts (keep android/ source, ignore build cache)
+android/app/build/
+android/.gradle/
+android/build/
+android/.idea/
+android/local.properties
+
+# iOS (if added later)
+ios/App/Pods/
+ios/App/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*

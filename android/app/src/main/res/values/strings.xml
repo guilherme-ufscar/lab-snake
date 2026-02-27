@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Lab Snake</string>
+    <string name="title_activity_main">Lab Snake</string>
+    <string name="package_name">com.labsnake.app</string>
+    <string name="custom_url_scheme">com.labsnake.app</string>
+</resources>
